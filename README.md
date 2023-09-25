@@ -25,7 +25,7 @@ Follow these steps to get your project up and running:
 3. Install project dependencies:
 
    ```bash
-   npm install-all
+   npm run install-all
    ```
 
 ## Starting the React App and Server
