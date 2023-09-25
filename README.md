@@ -13,13 +13,13 @@ Follow these steps to get your project up and running:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-react-project.git
+   git clone https://github.com/kumarkshitij171/NotesApp.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-react-project
+   cd inotebook-frontend
    ```
 
 3. Install project dependencies:
