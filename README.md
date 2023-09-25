@@ -4,8 +4,11 @@ This project is a basic setup for a React application that includes a developmen
 
 ## Prerequisites
 
-Before you begin, make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download them from [nodejs.org](https://nodejs.org/).
-MongoDB (Make sure the MongoDB server is up and running)
+Before you begin, please ensure you have the following prerequisites in place:
+
+- Node.js and npm: If you haven't already, download and install Node.js and npm from [nodejs.org](https://nodejs.org).
+
+- MongoDB: Make sure you have MongoDB installed and that the MongoDB server is up and running.
 ## Installation
 
 Follow these steps to get your project up and running:
