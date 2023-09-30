@@ -32,7 +32,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone <repository_url>
+   git clone https://github.com/kumarkshitij171/NotesApp.git
    ```
 
 2. Navigate to the project folder:
@@ -44,7 +44,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 3. Install the required npm packages:
 
    ```shell
-   npm install
+   npm install-all
    ```
 
 ## Usage
@@ -61,17 +61,17 @@ The server will start at `http://localhost:5000` by default. You can change the 
 
 The Notes App backend provides the following API endpoints:
 
-- **GET /api/notes**: Fetch all notes.
-- **GET /api/notes/:id**: Fetch a specific note by ID.
-- **POST /api/notes**: Create a new note.
-- **PUT /api/notes/:id**: Update a specific note by ID.
-- **DELETE /api/notes/:id**: Delete a specific note by ID.
+- **POST /api/auth/createuser**: Create an user.
+- **POST /api/auth/login**: User Login.
+- **POST /api/auth/dashboard**: Showing dashboard to the user.
+- **GET /api/notes/fetchallnotes**: Fetch all notes.
+- **POST /api/notes/addnote**: Create a new note.
+- **PUT /api/notes/updatenote/:id**: Update a specific note by ID.
+- **DELETE /api/notes/deletenote/:id**: Delete a specific note by ID.
 
 ### Authentication
 
 To secure your API endpoints, consider implementing authentication mechanisms like JWT (JSON Web Tokens) or OAuth. You can configure authentication middleware in the `fetchUser.js` file.
-
-
 
 ---
 
